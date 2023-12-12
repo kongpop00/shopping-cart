@@ -7,21 +7,21 @@ const Listperson = [
     name: "Neil Sims",
     numberphone: "091-234-5678",
     email: "email@windster.com",
-    img: "/slider/person1.jpg",
+    img: "/person1.jpg",
   },
   {
     id: 2,
     name: "Bonnie Green",
     numberphone: "091-234-567",
     email: "email@windster.com",
-    img: "/slider/person2.jpg",
+    img: "/person2.jpg",
   },
   {
     id: 3,
     name: "Michael Gough",
     numberphone: "091-234-5678",
     email: "email@windster.com",
-    img: "/public/slider/person3.jpg",
+    img: "/slider/person3.jpg",
   },
 ];
 
@@ -29,22 +29,22 @@ const media = [
   {
     id: 1,
     name: "Line",
-    img: "/public/About/line.png",
+    img: "/About/line.png",
   },
   {
     id: 2,
     name: "Facebook",
-    img: "/public/About/Facebook.png",
+    img: "/About/Facebook.png",
   },
   {
     id: 1,
     name: "Youtube",
-    img: "/public/About/youtube.png",
+    img: "/About/youtube.png",
   },
   {
     id: 1,
     name: "Email",
-    img: "/public/About/Email.png",
+    img: "/About/Email.png",
   },
 ];
 

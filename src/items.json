@@ -4,7 +4,7 @@
         "id"  :1,
         "name" : "Americano",
         "price" : 55,
-        "imgUrl": "/public/shopingimg/1.png",
+        "imgUrl": "/shopingimg/1.png",
         "types " : ["coffee" , "all"]
 
     },
@@ -12,14 +12,14 @@
         "id"  :2,
         "name" : " Latte",
         "price" :45,
-        "imgUrl": "/public/shopingimg/2.png",
+        "imgUrl": "/shopingimg/2.png",
         "types " : ["coffee" , "all"]
     },
     {
         "id"  :3,
         "name" : "Mocca",
         "price" :60,
-        "imgUrl": "/public/shopingimg/3.png",
+        "imgUrl": "/shopingimg/3.png",
         "types " : ["coffee" , "all"]
 
     },
@@ -27,7 +27,7 @@
         "id"  :4,
         "name" : "Espresso",
         "price" :70,
-        "imgUrl": "/public/shopingimg/4.png",
+        "imgUrl": "/shopingimg/4.png",
         "types " : ["coffee" , "all"]
 
     },
@@ -35,7 +35,7 @@
         "id"  :5,
         "name" : "Lemon tea",
         "price" :45,
-        "imgUrl": "/public/shopingimg/5.png",
+        "imgUrl": "/shopingimg/5.png",
         "types " : ["tea", "all"]
 
     },
@@ -43,7 +43,7 @@
         "id"  :65,
         "name" : "Thai tea",
         "price" :45,
-        "imgUrl": "/public/shopingimg/7.png",
+        "imgUrl": "/shopingimg/7.png",
         "types " : ["tea", "all"]
         
         
@@ -52,7 +52,7 @@
         "id"  :7,
         "name" : "black tea",
         "price" : 40,
-        "imgUrl": "/public/shopingimg/6.png",
+        "imgUrl": "/shopingimg/6.png",
         "types " : ["tea", "all"]
 
     },
@@ -60,7 +60,7 @@
         "id"  :8,
         "name" : "Cocoa",
         "price" : 55,
-        "imgUrl": "/public/shopingimg/8.png",
+        "imgUrl": "/shopingimg/8.png",
         "types " : ["chocolate", "all"]
 
     },
@@ -68,7 +68,7 @@
         "id"  :9,
         "name" : "Green Tea",
         "price" : 55,
-        "imgUrl": "/public/shopingimg/9.png",
+        "imgUrl": "/shopingimg/9.png",
         "types " :  ["tea", "all"]
 
     },
@@ -76,7 +76,7 @@
         "id"  :10,
         "name" : "Orange Black  ",
         "price" : 75,
-        "imgUrl": "/public/shopingimg/10.png",
+        "imgUrl": "/shopingimg/10.png",
         "types " :  ["coffee" , "all"]
 
     },
@@ -84,7 +84,7 @@
         "id"  :11,
         "name" : "Chocolate Mint",
         "price" : 75,
-        "imgUrl": "/public/shopingimg/11.png",
+        "imgUrl": "/shopingimg/11.png",
         "types " : ["chocolate", "all"]
 
     },
@@ -92,7 +92,7 @@
         "id"  :12,
         "name" : "Black Coconut ",
         "price" : 75,
-        "imgUrl": "/public/shopingimg/12.png",
+        "imgUrl": "/shopingimg/12.png",
         "types " : ["coffee" , "all"]
 
     }

@@ -18,7 +18,7 @@ const Nav = () => {
             <a className="btn btn-ghost normal-case text-xl">
               <img
                 className="w-[150px] h-[50px]"
-                src="public/logo.png"
+                src="/logo.png"
                 alt=""
               />
             </a>
