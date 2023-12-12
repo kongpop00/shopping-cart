@@ -1,6 +1,5 @@
-import React from "react";
-import { DataReview } from "./dataReview";
 import BasicRating from "./Rating";
+import { DataReview } from "./dataReview";
 
 const Review = () => {
   return (

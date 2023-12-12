@@ -20,7 +20,7 @@ export default function BasicRating(props: any) {
       <Rating
         name="simple-controlled"
         value={props.data}
-        onChange={(event, newValue) => {
+        onChange={(_event, newValue) => {
           setValue(newValue);
         }}
       />

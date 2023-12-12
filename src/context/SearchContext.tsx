@@ -1,11 +1,9 @@
 import {
-    HtmlHTMLAttributes,
-    ReactNode,
-    createContext,
-    useContext,
-    useEffect,
-    useState,
-  } from "react";
+  ReactNode,
+  createContext,
+  useContext,
+  useState
+} from "react";
   
   
   
@@ -20,8 +18,8 @@ import {
     searchTypeBar: string;
     searchNameAndType: boolean;
     handlesearchname: () => void;
-    setSearchName : unknown
-    searchName :string
+    setSearchName : string  | any
+    searchName :string 
   };
   
   const useSearchsContext = createContext({} as searchTypecontext);

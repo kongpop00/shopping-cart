@@ -1,14 +1,13 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { useSearchContext } from "../../context/SearchContext";
 
 const InputSearch = () => {
-  const { setsearchname, handlesearchname } = useSearchContext();
+  const { setSearchName, handlesearchname } = useSearchContext();
   return (
     <div className="flex w-[320px] bg-white rounded-[30px] border-2  mt-[20px]">
-      <input
+      <input 
         type="text"
-        onChange={(e) => setsearchname(e.target.value)}
+        onChange={(e) => setSearchName(e.target.value)}
         placeholder="Search Menu"
         className=" ml-[20px] border-none focus: rounded-none text-[#8e6646] font-[500] text-[18px] focus:border-red-200 input input-bordered"
       />

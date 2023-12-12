@@ -1,13 +1,12 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useShoppingCart } from "../../context/ShopPingCartContext";
 
-import Listmenu from "./Listmenu";
 import { useSearchContext } from "../../context/SearchContext";
+import Listmenu from "./Listmenu";
 
 
 const Nav = () => {
-  const [inputtext, setinputtext] = useState("");
+
   const { cartQeantity, openCart } = useShoppingCart();
   const { setSearchName, handlesearchname } = useSearchContext();
 
@@ -33,7 +32,7 @@ const Nav = () => {
           <div className="   md:flex   hidden  mr-[50px] bg-white rounded-[20px]   rounded-r-[30px] ">
             <input
               type="text"
-              onChange={(e) => setSearchName(e.target.value)}
+              onChange={(e) =>setSearchName(e.target.value)}
               placeholder="Search Menu"
               className=" ml-[20px] border-none focus: rounded-none text-[#8e6646] font-[500] text-[18px] focus:border-red-200 input input-bordered"
             />

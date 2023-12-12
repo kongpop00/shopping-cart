@@ -1,14 +1,13 @@
 import { useEffect, useState } from "react";
-import Hemberger from "./Hemberger";
-import { Link } from "react-router-dom";
-import { NavLink } from "react-router-dom";
-import Close from "./Close";
+import { Link, NavLink } from "react-router-dom";
 import InputSearch from "../search/InputSearch ";
+import Close from "./Close";
+import Hemberger from "./Hemberger";
 
 
 //  button swit  on-off - today chang id  = with Heemberger  button --
 
-const Listmenu = (props:unknown) => {
+const Listmenu = () => {
   const [show_list, setShow_List] = useState(false);
 
   const on_of_Hemberger = () => {
