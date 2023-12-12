@@ -1,6 +1,6 @@
 import { useState ,useEffect} from "react";
 
-const urlimg = ["public/slider/1.gif" , "public/slider/2.gif","public/slider/3.gif"];
+const urlimg = ["/slider/1.gif" , "/slider/2.gif","/slider/3.gif"];
 
 
 
