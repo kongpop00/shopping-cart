@@ -49,7 +49,7 @@ const media = [
 ];
 
 const Contact = () => {
-  const [dataContact, setDatContact] = useState(Listperson);
+  const [dataContact] = useState(Listperson);
  
   return (
     <div className=" m-[auto]">

@@ -37,7 +37,7 @@ import {
     }
     const [searchTypeBar, setSearchTypeBar] = useState<string>("all");
     const [searchName, setSearchName] = useState("");
-    const [getinput  , setgetinput]=useState<string>('')
+    const [  , setgetinput]=useState<string>('')
     const [searchNameAndType, setSearchNameAndType] = useState(false);
     {
       /**State end */
