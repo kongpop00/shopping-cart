@@ -23,7 +23,7 @@ export const CheckOut = (props: any) => {
               <div className="sm:px-[70px]">
                 <img
                   className="w-[50%] sm:w-[40%] md:w-[70%] lg:w-[50%]"
-                  src="/public/Checkout/logoblack.png"
+                  src="/checkout/logoblack.png"
                   alt=""
                 />
               </div>
@@ -47,7 +47,7 @@ export const CheckOut = (props: any) => {
                 >
                   <img
                     className="w-[55%] md:w-[75%]"
-                    src="/public/Checkout/14.png"
+                    src="/checkout/14.png"
                     alt=""
                   />
                 </button>
@@ -65,7 +65,7 @@ export const CheckOut = (props: any) => {
                 <div className="text-center  ">
                   <img
                     className="w-[70%] sm:w-[70%] m-[auto] xl:w-[100%]"
-                    src="/public/Checkout/Prompay.jpg "
+                    src="/checkout/Prompay.jpg "
                     alt=""
                   />
 
@@ -81,7 +81,7 @@ export const CheckOut = (props: any) => {
                 <div className="m-[auto] ">
                   <img
                     className="w-[40%] md:w-[70%] m-[auto] "
-                    src="/public/checkout/suc.gif"
+                    src="/checkout/suc.gif"
                     alt=""
                   />
                   <h1 className=" text-center text-[48px] font-[500]  bottom-[60px]">
@@ -100,7 +100,7 @@ export const CheckOut = (props: any) => {
                   <div>
                     <img
                       className="w-[85%] m-[auto] xl:w-[100%]"
-                      src="/public/Checkout/wait.gif"
+                      src="/checkout/wait.gif"
                       alt=""
                     />
                   </div>
